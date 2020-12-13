@@ -1,26 +1,40 @@
 <h1 align = "center"> Find Your Geek </h1>
 
-## APRESENTAÇÃO
+### APRESENTAÇÃO
 
 <p align = "center"> Esse é o projeto final do Bootcamp de Desenvolvimento BackEnd. Consiste em um app que tem por objetivo unir pessoas com gostos semelhantes do mundo Geek, o Find Your Geek contará com as seguintes funções:
-O seu cadastro;
-Deixa-lo disponível para pessoas que tenham interesses em comum com os seus;
-Consultar os Geeks cadastrados com informações como: 
-Nome, Email, Cidade onde reside, Tipo de jogo que o interessa e Descrição.
-Além disso, poderá filtrar os jogadores pela cidade e tipo de jogo que o interessa.
+
+# O seu cadastro;
+
+# Deixa-lo disponível para pessoas que tenham interesses em comum com os seus;
+
+# Consultar os Geeks cadastrados com informações como:
+
+_Nome;_
+_Email;_
+_Cidade onde reside;_
+_Tipo de jogo que o interessa;_
+_Descrição._
+
+# Além disso, poderá filtrar os jogadores pela cidade e tipo de jogo que o interessa.
+
+# Favoritar seus usários preferidos
 
 </p>
 
-<h4 align = "center"> Em construção </h4>
+#### API - ROUTES
 
-### API - ROUTES
+## GET
 
 - [x] Listar todos os usuários:
-<p align = "center"> [http://localhost:3000/findyourgeek/all] </p>
+<p align = "center"> [https://find-your-geek.herokuapp.com/findyourgeek/all] </p>
+
+## POST
 
 - [x] Cadastrar o usuário:
-<p align = "center"> [http://localhost:3000/findyourgeek/register] 
-O cadastro deve ser feito no seguinte formato:
+<p align = "center"> [https://find-your-geek.herokuapp.com/findyourgeek/id]
+
+# O cadastro deve ser feito no seguinte formato:
 
 ```json
 {
@@ -33,37 +47,79 @@ O cadastro deve ser feito no seguinte formato:
 }
 ```
 
+## GET
+
+- [x] Filtrar os usuários pelo id:
+<p align = "center"> [https://find-your-geek.herokuapp.com/findyourgeek/id]
 </p>
 
-- [ ] Filtrar usuários por cidade:
-<p align = "center"> [http://localhost:3000/findyourgeek:/cityname]
+## GET
 
--cityname será o nome da cidade procurada
-
+- [x] Filtrar usuários por cidade:
+<p align = "center"> [https://find-your-geek.herokuapp.com/findyourgeek/city] 
 </p>
 
-- [ ] Filtrar usuários por tipo de jogo:
+## GET
 
-<p align = "center"> [http://localhost:3000/findyourgeek:/gametype]
+- [x] Filtrar usuários por tipo de jogo:
 
-- gametype será o tipo de jogo procurado
+<p align = "center"> [https://find-your-geek.herokuapp.com/findyourgeek/type] </p>
+
+## POST
+
+- [x] Favoritar usuários:
+
+<p align = "center"> [https://find-your-geek.herokuapp.com/findyourgeek/favorite/id] </p>
+
+## ROTA PARA FAZER LOGIN
+
+## POST
+
+- [x] Fazer o login:
+
+<p align = "center"> [https://find-your-geek.herokuapp.com/fyg/login] 
 </p>
 
-- [ ] Editar usuário:
+## Essas rotas só funcionarão após o login
 
-<p align = "center"> [http://localhost:3000/findyourgeek:/id] 
+## PATCH
+
+- [x] Editar tipo de jogo preferido do usuário:
+
+<p align = "center"> [https://find-your-geek.herokuapp.com/findyourgeek/updateType/id] 
 </p>
 
-- [ ] Excluir usuário
+## PATCH
 
-<p align = "center"> [http://localhost:3000/findyourgeek/delete:/id] 
+- [x] Editar descrição do usuário:
+
+<p align = "center"> [https://find-your-geek.herokuapp.com/findyourgeek/updateDesc/id] 
 </p>
 
-- [ ] Relacionar usuário
+## PATCH
+
+- [x] Editar cidade do usuário:
+
+<p align = "center"> [https://find-your-geek.herokuapp.com/findyourgeek/updateCity/id]  
+</p>
+
+## DELETE
+
+- [x] Excluir usuário
+
+<p align = "center"> [http://localhost:3000/findyourgeek/delete/id] 
+</p>
+
+## POST
+
+- [x] Favoritar usuário:
+
+<p align = "center"> [http://localhost:3000/findyourgeek/favorite/id] 
+</p>
 
 ## Contato
 
-**Linkedin**: [https://www.linkedin.com/in/maria-eduarda-lima-gomes-699888190/]
+**Linkedin**: [https://www.linkedin.com/in/melg88]
 
 **Email**: [meduardalima88@gmail.com]
 
@@ -82,27 +138,8 @@ O cadastro deve ser feito no seguinte formato:
 - [x] Nodemon
 - [x] Mongoose
 - [x] Yup
+- [x] Bcrypt
 
 ## Hospedagem
 
 - [x] Heroku
-
-<!--
-# Turma On9 (Accenture) - Projeto Final
-
-Eis que se finda nosso curso, e agora queremos demonstrar nosso aprendizado em projeto prático.
-
-## Primeira Entrega - 05/12
-
-- Descritivo do projeto
-- 30% da codificação
-
-É importante que o projeto esteja numa pasta e não solto na raiz da branch. Além disso, sigam a seguinte estrutura para o nome:
-_nome-sobrenome-nome-do-projeto_
-
-## Segunda Entrega - 12/12
-
-- 100% da codificação
-- Link do projeto publicado (o link da lista compartilhada será divulgado na semana 18)
-
-## Apresentação do projeto - 13/12 -->
