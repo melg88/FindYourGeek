@@ -4,11 +4,11 @@
 
 <p align = "center"> Esse é o projeto final do Bootcamp de Desenvolvimento BackEnd. Consiste em um app que tem por objetivo unir pessoas com gostos semelhantes do mundo Geek, o Find Your Geek contará com as seguintes funções:
 
-# O seu cadastro;
+O seu cadastro;
 
-# Deixa-lo disponível para pessoas que tenham interesses em comum com os seus;
+Deixa-lo disponível para pessoas que tenham interesses em comum com os seus;
 
-# Consultar os Geeks cadastrados com informações como:
+Consultar os Geeks cadastrados com informações como:
 
 _Nome;_
 _Email;_
@@ -16,9 +16,9 @@ _Cidade onde reside;_
 _Tipo de jogo que o interessa;_
 _Descrição._
 
-# Além disso, poderá filtrar os jogadores pela cidade e tipo de jogo que o interessa.
+Além disso, poderá filtrar os jogadores pela cidade e tipo de jogo que o interessa.
 
-# Favoritar seus usários preferidos
+Favoritar seus usários preferidos
 
 </p>
 
@@ -34,7 +34,7 @@ _Descrição._
 - [x] Cadastrar o usuário:
 <p align = "center"> [https://find-your-geek.herokuapp.com/findyourgeek/id]
 
-# O cadastro deve ser feito no seguinte formato:
+O cadastro deve ser feito no seguinte formato:
 
 ```json
 {
