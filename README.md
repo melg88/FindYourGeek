@@ -107,14 +107,14 @@ O cadastro deve ser feito no seguinte formato:
 
 - [x] Excluir usuário
 
-<p align = "center"> [http://localhost:3000/findyourgeek/delete/id] 
+<p align = "center"> [http://find-your-geek.herokuapp.com/findyourgeek/delete/id] 
 </p>
 
 ## POST
 
 - [x] Favoritar usuário:
 
-<p align = "center"> [http://localhost:3000/findyourgeek/favorite/id] 
+<p align = "center"> [http://find-your-geek.herokuapp.com/findyourgeek/favorite/id] 
 </p>
 
 ## Contato
